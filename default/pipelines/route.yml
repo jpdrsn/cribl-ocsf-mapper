@@ -3,10 +3,10 @@ groups: {}
 comments: []
 routes:
   - id: default
-    name: Schema mapper
+    name: OSCF mapper
     final: true
     disabled: false
-    pipeline: schema_mapper
+    pipeline: ocsf_mapper
     description: ""
     clones: []
     enableOutputExpression: false

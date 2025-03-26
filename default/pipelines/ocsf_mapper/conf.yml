@@ -1,0 +1,22 @@
+{
+  "id": "ocsf_mapper",
+  "conf": {
+    "asyncFuncTimeout": 1000,
+    "functions": [
+      {
+        "id": "eval",
+        "disabled": false,
+        "filter": "true",
+        "conf": {
+          "add": [
+            {
+              "name": "datamodel",
+              "value": "'ocsf'"
+            }
+          ],
+          "remove": []
+        }
+      }
+    ]
+  }
+}

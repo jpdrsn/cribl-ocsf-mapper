@@ -1,5 +1,5 @@
 const { Expression } = C.expr;
-const cLogger = C.util.getLogger('func:jquery_eval');
+const cLogger = C.util.getLogger('func:ocsf_mapper');
 
 import { run } from './ocsf-mapper.js';
 
@@ -16,7 +16,7 @@ exports.init = (opts) => {
 
 exports.process = (event) => {
   try {
-    mappinfNameField = conf.mappingNameField;
+    mappingNameField = conf.mappingNameField;
     outputField = conf.outputField;
     event = run(event, mappingNameField, outputField);
   } catch(ignore){}

@@ -1,0 +1,8 @@
+{
+  "version": "0.0.1",
+  "tags": {
+    "streamtags": []
+  },
+  "displayName": "ocsf_mapper",
+  "name": "OCSF Mapper"
+}

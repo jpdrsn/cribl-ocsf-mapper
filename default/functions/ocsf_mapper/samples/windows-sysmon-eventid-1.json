@@ -1,0 +1,15 @@
+{
+  "source_name": "windows-sysmon",
+  "EventId": "1",
+  "source_instance_id": "i-1234example56789",
+  "Description": {
+    "RuleName": "technique_id=T1574.010,technique_name=Services File Permissions Weakness",
+    "UtcTime": "2023-10-03 23:50:22.438",
+    "ProcessGuid": "{78c8aea6-5a34-651b-1900-000000005f01}",
+    "ProcessId": 1128,
+    "Image": "C:\\Windows\\System32\\svchost.exe",
+    "TargetFilename": "C:\\Windows\\ServiceState\\EventLog\\Data\\lastalive1.dat",
+    "CreationUtcTime": "2023-10-03 00:04:00.984",
+    "User": "NT AUTHORITY\\LOCAL SERVICE"
+  }
+}

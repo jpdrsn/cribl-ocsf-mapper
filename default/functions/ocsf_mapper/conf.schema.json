@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "title": "",
+    "additionalProperties": false,
+    "properties": {
+        "mappingNameField": {
+            "type": "string",
+            "title": "Field with mapping name",
+            "description": "Field name that contains the mapping name to use",
+            "default": "source_name"
+        },
+        "outputField": {
+            "type": "string",
+            "title": "Output field",
+            "description": "Field to output the mapped data",
+            "default": "ocsf"
+        }
+    }
+}
